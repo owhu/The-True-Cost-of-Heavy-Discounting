@@ -1,4 +1,4 @@
-# The-True-Cost-of-Heavy-Discounting
+# The True Cost of Heavy Discounting: A Retail Profitability Optimization Case Study
 
 A case study investigating the financial impact of discounting strategies on profit margins. This project translates raw transaction data into insights by pairing SQL and Python with an interactive, narrative-driven Tableau dashboard.
 
