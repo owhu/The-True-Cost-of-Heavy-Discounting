@@ -60,6 +60,7 @@ The dashboard features an interactive map linked via action filters to a Top 10 
 
 [Here is the final dashboard architecture:](https://public.tableau.com/app/profile/oliver.hu5770/viz/RetailProfitabilityLeakageTheTrueCostofHeavyDiscounting/Dashboard1?publish=yes)
 
-</a><img width="1643" height="822" alt="Screenshot 2026-06-10 at 1 34 35 PM" src="https://github.com/user-attachments/assets/0fb69829-be64-42ff-9a45-89275da10273" />
+<img width="1643" height="822" alt="Screenshot 2026-06-10 at 1 34 35 PM" src="https://github.com/user-attachments/assets/d076ebfb-4e80-428b-a71e-35503ef602cd" />
+
 
 
