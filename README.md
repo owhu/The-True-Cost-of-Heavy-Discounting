@@ -10,19 +10,19 @@ Unmonitored price cuts can quietly erode profitability. This analysis evaluates 
 2. Where and why is it happening?
 3. Which products are responsible?
 
-# 1. What is the scale of the problem?
+## 1. What is the scale of the problem?
 
 I constructed a Financial Waterfall Chart utilizing a Gantt mark configuration with negative sizing logic to display the exact dollar impact from markdowns.
 
 **Insight:** The business generates a $383K profit from normal sales, but aggressive markdowns over 50% wipe out nearly $100K in value, pulling final net profit down to $286K.
 
-# 2. Where and why is it happening?
+## 2. Where and why is it happening?
 
 Using a scatter plot and segmented horizontal bar charts, I analyzed the average transaction discounts against net margins to find the tipping point where promotional volume turns unprofitable.
 
 **Insight:** Profitability remains stable up to a 20% markdown threshold. Profitability collapses when the average discounts exceed 20%.
 
-# 3. Which products are responsible?
+## 3. Which products are responsible?
 ## Benchmarking via SQL
 To accurately measure profit loss, we cannot simply look at negative profit numbers. We must compare a product's underperformance during a heavy sale against its own baseline when sold at a normal price point.
 
