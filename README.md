@@ -23,7 +23,7 @@ Using a scatter plot and segmented horizontal bar charts, I analyzed the average
 **Insight:** Profitability remains stable up to a 20% markdown threshold. Profitability collapses when the average discounts exceed 20%.
 
 ## 3. Which products are responsible?
-## Benchmarking via SQL
+### Benchmarking via SQL
 To accurately measure profit loss, we cannot simply look at negative profit numbers. We must compare a product's underperformance during a heavy sale against its own baseline when sold at a normal price point.
 
 I wrote the following query using SQL to calculate a benchmark for every unique product (defined as orders with a discount less than 10%) and isolate the top 10 worst financial bleeders where promotional discounts were more than 50%.
@@ -62,6 +62,9 @@ The dashboard features an interactive map linked via action filters to a Top 10 
 
 <img width="1647" height="867" alt="Screenshot 2026-06-10 at 1 46 53 PM" src="https://github.com/user-attachments/assets/7b363546-91c8-45de-9138-377079b237a2" />
 
+## Strategic Recommendations
 
-
+1. **Enforce an Automated 20% Markdown Cap:** Implement point-of-sale system guardrails that flag and freeze any promotional discount **exceeding 20%**. Require explicit override approval to proceed with deeper markdowns.
+2. **Execute an Inventory & Vendor Audit for Binders:** Investigate the *Office Supply Binders* category (which represents 70% of the top 10 financial failures). Are the discounts due to oversupply or are the baseline wholesale cost too high?
+3. **Targeted Regional Promotional Rebalancing:** Initiate immediate discount restrictions across the highest leakage zones—specifically **Texas, Illinois, Ohio, and Pennsylvania**—and establish a bi-weekly automated tracking ledger to monitor margin recovery.
 
